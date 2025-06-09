@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            /*
+            medidas absolutas:
+            cm, mm, in (polegada), px (pixel), pt (ponto), pc.
+            medidas relativas:
+            em, ex, rem, vw, vh, %.
+            Medidas recomendadas pela W3C: px (16px é o tamanho padrão das fontes) e em.
+            16px = 1em
+            */
+            font-size: 16px;
+            font-style: italic;
+            text-decoration: underline;
+            font-weight: bold;
+            /*
+            lighter, normal, bold, bolder
+            forma numérica: 100 a 900, vai de lighter a bolder           
+            */
+        }
+        h1 {
+            font-family: 'Courier New', Courier, monospace;
+            font-weight: bolder;
+            font-size: 3em;
+            font-style: italic;
+            /*shortand font → propriedade que coloca tudo o que se deseja em uma linha.
+            style → wiegth → size → family (nesta ordem)*/
+        }
+        h2 {
+            font: bold 2em 'sans-serif';
+        }
+        p {
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalando com Fontes</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, praesentium totam sequi excepturi consequuntur numquam, odio quidem perferendis modi esse, labore enim? Animi, iste. Harum obcaecati doloremque inventore non quasi.</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus odio praesentium laborum. A suscipit eveniet architecto officiis rem ullam, saepe mollitia impedit alias necessitatibus provident omnis? Aut architecto repudiandae ad.</p>
+    <h2>Subtítulo</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores iusto est fuga iure nostrum totam assumenda, atque debitis sunt aut adipisci incidunt quis illo reiciendis. Quia magnam possimus labore repellendus.</p>    
+</body>
+</html>
